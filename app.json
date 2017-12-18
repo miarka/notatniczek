@@ -1,0 +1,8 @@
+{
+  "name": "Notatniczek",
+  "description": "Notatniczek.",
+  "image": "heroku/ruby",
+  "repository": "https://github.com/miarka/notatniczek",
+  "keywords": ["ruby", "rails" ],
+  "addons": [ "heroku-postgresql" ]
+}
