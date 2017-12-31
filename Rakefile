@@ -3,7 +3,9 @@
 
 require_relative 'config/application'
 
-Rails.application.load_tasks
+if Rails.env.development?
+  require 'rake/version_task'
+  Rake::VersionTask.new
+end
 
-require 'rake/version_task'
-Rake::VersionTask.new
+Rails.application.load_tasks
