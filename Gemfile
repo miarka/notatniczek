@@ -57,6 +57,7 @@ group :development do
   gem 'spring'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'version', '~> 1.1', '>= 1.1.1'
 end
 
 group :doc do
